@@ -17,6 +17,7 @@ const GetStarted = () => (
       </motion.div>
       <motion.div variants={fadeIn('left','tween',0.2,1)} className='flex-[0.75] flex justify-center flex-col'>
         <TypingText title="| How Metaverses Works"/>
+        <TitleText title={<>Get Started with just a few click</>}/>
       </motion.div>
     </motion.div>
   </section>
